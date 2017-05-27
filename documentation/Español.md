@@ -13,11 +13,14 @@ Ejecutar una función sin parametro justo cargado tanto el DOM como las imagenes
 - Metodo Avanzado
 
 ```
-$( app => (app ==='interactive') ? [function A] : (app ==='complete') && [function B] )
+$( app => (app === 'interactive') ? [function A] : (app === 'complete') && [function B] )
 ```
 Ejecutar una función con un parametro, es este caso 'app', donde 'app' devuelve dos datos: 
 - ' interactive ' : Se lanza este dato una vez analizado y cargado el DOM
 - ' complete ' : despues lanza este dato cuando ya ha cargado las imagenes y los iFrames
+
+**Información adicional :**  
+> *El metodo '$([function])' es igual que hacer '$( app => (app === 'complete') && [function] )'.*
 
 ## Control de eventos
 
@@ -25,7 +28,8 @@ Ejecutar una función con un parametro, es este caso 'app', donde 'app' devuelve
 ```
 $( [element] ).on([typeEvent], [function], [boolean = true])
 ```
-**Información adicional :** *Los elementos validos pueden ser ID, CLASS o elementos del DOM, **recomendamos la selección de los elemento por el ID***
+**Información adicional :** 
+> *Los elementos validos pueden ser ID, CLASS o elementos del DOM, **recomendamos la selección de los elemento por el ID***
 
 ### Eventos del raton
 - **click** : Click sobre un elemento
