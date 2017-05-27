@@ -4,13 +4,13 @@
 
 La manera correcta para iniciar la libreria, hay dos manera:
 
-- Metodos Básico
+- Método Básico
 ```
 $( [function] )
 ```
 Ejecutar una función sin parametro justo cargado tanto el DOM como las imagenes y iFrames.
 
-- Metodo Avanzado
+- Método Avanzado
 
 ```
 $( app => (app === 'interactive') ? [function A] : (app === 'complete') && [function B] )
@@ -20,11 +20,11 @@ Ejecutar una función con un parametro, es este caso 'app', donde 'app' devuelve
 - ' complete ' : despues lanza este dato cuando ya ha cargado las imagenes y los iFrames
 
 **Información adicional :**  
-> *El metodo '$([function])' es igual que hacer '$( app => (app === 'complete') && [function] )'.*
+> *El método '$([function])' es igual que hacer '$( app => (app === 'complete') && [function] )'.*
 
 ## Control de eventos
 
-- Metodo 'on'
+- Método 'on'
 ```
 $( [element] ).on([typeEvent], [function], [boolean = true])
 ```
@@ -60,3 +60,91 @@ $( [element] ).on([typeEvent], [function], [boolean = true])
 - **load** : Se ha completado la carga de la ventana
 - **unload** : El usuario ha cerrado la ventana
 - **resize** : El usuario ha cambiado el tamaño de la ventana
+
+
+## Control de Ajax
+
+- Método 'load'
+
+```
+$( [element] ).load([url])
+```
+
+Carga contenido de una pagina en un elemento
+
+## Control de Formulario
+
+- Método 'val'
+- Método 'serialize'
+- Método 'serializeArray'
+- Método 'blur'
+- Método 'focus'
+- Método 'submit'
+
+## Control del DOM
+
+- Método 'hover'
+- Método 'remove'
+
+## Control de los estilo CSS
+
+- Método 'css'
+- Método 'hasClass'
+- Método 'addClass'
+- Método 'removeClass'
+- Método 'toggleClass'
+
+## Control de los datos del DOM
+
+- Método 'data'
+- Método 'attr'
+- Método 'prop'
+
+## Control del DOM (Insite)
+
+- Método 'append'
+- Método 'appendTo'
+- Método 'prepend'
+- Método 'prepemdTo'
+- Método 'text'
+- Método 'html'
+
+## Control del DOM (Outsite)
+
+- Método 'after'
+- Método 'before'
+- Método 'insertAfter'
+- Método 'insertBefore'
+
+## Control del arbol DOM 
+
+- Método 'parent'
+- Método 'parents'
+- Método 'map'
+- Método 'join'
+- Método 'children'
+- Método 'find'
+- Método 'prev'
+- Método 'next'
+
+## Control de filtros
+
+- Método 'first'
+
+## Metodos prototipados
+
+Metodos que no requieren de un elemento inicializador
+
+- Método 'ajax'
+- Método 'cookie'
+- Método 'for'
+- Método 'forIn'
+- Método 'forOf'
+- Método 'lorem'
+- Método 'plugin'
+- Método 'random'
+- Método 'serialize'
+- Método 'serializeArray'
+- Método 'storage'
+- Método 'waitForSecond'
+- Método 'next'
