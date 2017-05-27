@@ -147,4 +147,3 @@ Metodos que no requieren de un elemento inicializador
 - Método 'serializeArray'
 - Método 'storage'
 - Método 'waitForSecond'
-- Método 'next'
