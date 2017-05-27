@@ -52,7 +52,7 @@ $( [element] ).on([typeEvent], [function], [boolean = true])
 - **submit** : Se pulsa el botón de envío del formulario (antes del envío)
 - **reset** : Se pulsa el botón reset del formulario
 
-## Evento de ventanas o frames
+### Eventos de ventanas o frames
 - **load** : Se ha completado la carga de la ventana
 - **unload** : El usuario ha cerrado la ventana
 - **resize** : El usuario ha cambiado el tamaño de la ventana
