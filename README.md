@@ -11,6 +11,13 @@ $( app => (app ==='interactive') ? [function] : (app ==='complete') && [function
 $( [function] )
 ```
 
+## List of methods
+
+[Coming soon]
+
+## List of prototypes
+
+[Coming soon]
 
 ## Version
 
@@ -25,4 +32,4 @@ The current version of the library is:
 
 ## License
 
-This project is licensed under the **MIT License** - see the **LICENSE.md** file for details
+This project is licensed under the **MIT License** - see the **[LICENSE.md](https://github.com/Dev-tech-es/jLib6/blob/master/LICENSE)** file for details
