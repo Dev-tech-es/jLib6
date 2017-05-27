@@ -5,10 +5,15 @@
 ## Using the library
 
 The correct way to initialize the library is as follows:
-```
-$( app => (app ==='interactive') ? [function] : (app ==='complete') && [function] )
 
+- Basic Method
+```
 $( [function] )
+```
+- Advanced Method
+```
+$( app => (app ==='interactive') ? [function A] : (app ==='complete') && [function B] )
+
 ```
 
 ## List of methods
