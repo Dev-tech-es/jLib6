@@ -1,4 +1,4 @@
-[Léeme](https://github.com/Dev-tech-es/jLib6/blob/master/readme/Espan%CC%83ol.md)
+Readme in spanish. [Léeme](https://github.com/Dev-tech-es/jLib6/blob/master/readme/Espan%CC%83ol.md)
 
 # DOM management javascript library
 
@@ -85,7 +85,7 @@ The current version of the library is:
 
 ## Author
 
-* **Sergio González Garrido** - *Initial work* - [Dev-tech](https://github.com/Dev-tech-es)
+* **Sergio González Garrido** - *Proyects* - [Dev-tech](https://github.com/Dev-tech-es)
 
 ## License
 
