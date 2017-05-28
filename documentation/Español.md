@@ -75,30 +75,102 @@ Carga contenido de una pagina en un elemento
 ## Control de Formulario
 
 - Método 'val'
+
+Devuelve el valor del elemento
+```
+$( [element] ).val()
+```
+Inserta un valor en el elemento
+```
+$( [element] ).val([string])
+```
 - Método 'serialize'
+
+Genera un string , llave y valor (?[key]=[value]&key]=[value]) para enviar datos por formulario.
+```
+$( [element] ).serialize()
+```
 - Método 'serializeArray'
+
+Genera un arreglo , llave y valor para enviar datos por formulario.
+
+```
+$( [element] ).serializeArray()
+```
 - Método 'blur'
+```
+$( [element] ).blur()
+```
 - Método 'focus'
+```
+$( [element] ).focus()
+```
 - Método 'submit'
+```
+$( [elementForm] ).submit([function])
+```
 
 ## Control del DOM
 
 - Método 'hover'
+```
+$( [element] ).hover([function A], [function B])
+```
 - Método 'remove'
+```
+$( [element] ).remove()
+```
+
 
 ## Control de los estilo CSS
 
 - Método 'css'
+```
+$( [element] ).css([string key], [string value])
+```
+```
+$( [element] ).css([object])
+```
 - Método 'hasClass'
+```
+$( [element] ).hasClass([string nameClass])
+```
 - Método 'addClass'
+```
+$( [element] ).addClass([string nameClass])
+```
 - Método 'removeClass'
+```
+$( [element] ).removeClass([string nameClass])
+```
 - Método 'toggleClass'
+```
+$( [element] ).toggleClass([string nameClass])
+```
 
 ## Control de los datos del DOM
 
 - Método 'data'
+```
+$( [element] ).data([string nameData])
+```
+```
+$( [element] ).data([string nameData], [string newData])
+```
 - Método 'attr'
+```
+$( [element] ).attr([string nameAttr])
+```
+```
+$( [element] ).attr([string nameAttr], [string newAttr)
+```
 - Método 'prop'
+```
+$( [element] ).prop([string nameProp])
+```
+```
+$( [element] ).prop([string nameProp], [boolean newProp])
+```
 
 ## Control del DOM (Insite)
 
