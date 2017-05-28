@@ -21,7 +21,9 @@
 La manera correcta para iniciar la libreria, hay dos manera:
 
 - Método Básico
+
 Ejecutar una función sin parametro justo cargado tanto el DOM como las imagenes y frames.
+
 ```
 $( [function] )
 ```
