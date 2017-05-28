@@ -25,7 +25,7 @@ La manera correcta para iniciar la libreria, hay dos manera:
 Ejecutar una función sin parametro justo cargado tanto el DOM como las imagenes y frames.
 
 ```
-$( [function] )
+$( [función] )
 ```
 
 - Método Avanzado
@@ -35,19 +35,19 @@ Ejecutar una función con un parametro, es este caso 'app', donde 'app' devuelve
 - ' complete ' : despues lanza este dato cuando ya ha cargado las imagenes y los iFrames
 
 ```
-$( app => (app === 'interactive') ? [function A] : (app === 'complete') && [function B] )
+$( app => (app === 'interactive') ? [función A] : (app === 'complete') && [función B] )
 ```
 
 
 **Información adicional :**  
-> *El método '$([function])' es igual que hacer '$( app => (app === 'complete') && [function] )'.*
+> *El método '$([función])' es igual que hacer '$( app => (app === 'complete') && [función] )'.*
 
 ## Selector de elementos
 
 Como en el CSS podemos seleccionar un elemento por su elemento HTML, ID o CLASE.
 
 ```
-$( [element] )
+$( [elemento] )
 ```
 
 **Información adicional :**  
@@ -58,7 +58,7 @@ $( [element] )
 
 - Método 'on'
 ```
-$( [element] ).on([typeEvent], [function], [boolean = true])
+$( [elemento] ).on([typeEvent], [función], [boolean = true])
 ```
 **Información adicional :** 
 > *Los elementos validos pueden ser ID, CLASS o elementos del DOM, **recomendamos la selección de los elemento por el ID***
@@ -99,7 +99,7 @@ $( [element] ).on([typeEvent], [function], [boolean = true])
 - Método 'load'
 
 ```
-$( [element] ).load([url])
+$( [elemento] ).load([url])
 ```
 
 Carga contenido de una pagina en un elemento
@@ -110,28 +110,28 @@ Carga contenido de una pagina en un elemento
 
 Devuelve el valor del elemento
 ```
-$( [element] ).val()
+$( [elemento] ).val()
 ```
 Inserta un valor en el elemento
 ```
-$( [element] ).val([string])
+$( [elemento] ).val([string])
 ```
 - Método 'serialize'
 
 Genera un string , llave y valor (?[key]=[value]&key]=[value]) para enviar datos por formulario.
 ```
-$( [element] ).serialize()
+$( [elemento] ).serialize()
 ```
 - Método 'serializeArray'
 
 Genera un arreglo , llave y valor para enviar datos por formulario.
 
 ```
-$( [element] ).serializeArray()
+$( [elemento] ).serializeArray()
 ```
 - Método 'blur'
 ```
-$( [element] ).blur()
+$( [elemento] ).blur()
 ```
 - Método 'focus'
 ```
@@ -139,18 +139,18 @@ $( [element] ).focus()
 ```
 - Método 'submit'
 ```
-$( [elementForm] ).submit([function])
+$( [elementoForm] ).submit([función])
 ```
 
 ## Control del DOM
 
 - Método 'hover'
 ```
-$( [element] ).hover([function A], [function B])
+$( [elemento] ).hover([función A], [función B])
 ```
 - Método 'remove'
 ```
-$( [element] ).remove()
+$( [elemento] ).remove()
 ```
 
 
@@ -158,88 +158,88 @@ $( [element] ).remove()
 
 - Método 'css'
 ```
-$( [element] ).css([string key], [string value])
+$( [elemento] ).css([string key], [string value])
 ```
 ```
-$( [element] ).css([object])
+$( [elemento] ).css([object])
 ```
 - Método 'hasClass'
 ```
-$( [element] ).hasClass([string nameClass])
+$( [elemento] ).hasClass([string nameClass])
 ```
 - Método 'addClass'
 ```
-$( [element] ).addClass([string nameClass])
+$( [elemento] ).addClass([string nameClass])
 ```
 - Método 'removeClass'
 ```
-$( [element] ).removeClass([string nameClass])
+$( [elemento] ).removeClass([string nameClass])
 ```
 - Método 'toggleClass'
 ```
-$( [element] ).toggleClass([string nameClass])
+$( [elemento] ).toggleClass([string nameClass])
 ```
 
 ## Control de los datos del DOM
 
 - Método 'data'
 ```
-$( [element] ).data([string nameData])
+$( [elemento] ).data([string nameData])
 ```
 ```
-$( [element] ).data([string nameData], [string newData])
+$( [elemento] ).data([string nameData], [string newData])
 ```
 - Método 'attr'
 ```
-$( [element] ).attr([string nameAttr])
+$( [elemento] ).attr([string nameAttr])
 ```
 ```
-$( [element] ).attr([string nameAttr], [string newAttr)
+$( [elemento] ).attr([string nameAttr], [string newAttr)
 ```
 - Método 'prop'
 ```
-$( [element] ).prop([string nameProp])
+$( [elemento] ).prop([string nameProp])
 ```
 ```
-$( [element] ).prop([string nameProp], [boolean newProp])
+$( [elemento] ).prop([string nameProp], [boolean newProp])
 ```
 
 ## Control del DOM (Insite)
 
 - Método 'append'
 ```
-$( [element] ).append([string HTML])
+$( [elemento] ).append([string HTML])
 ```
 - Método 'appendTo'
 ```
-$( [element] ).appendTo([string HTML])
+$( [elemento] ).appendTo([string HTML])
 ```
 - Método 'prepend'
 ```
-$( [element] ).prepend([string HTML])
+$( [elemento] ).prepend([string HTML])
 ```
 - Método 'prependTo'
 ```
-$( [element] ).prependTo([string HTML])
+$( [elemento] ).prependTo([string HTML])
 ```
 - Método 'text'
 ```
-$( [element] ).text([string text])
+$( [elemento] ).text([string text])
 ```
 - Método 'html'
 ```
-$( [element] ).html([string HTML])
+$( [elemento] ).html([string HTML])
 ```
 
 ## Control del DOM (Outsite)
 
 - Método 'after'
 ```
-$( [element] ).after([string HTML])
+$( [elemento] ).after([string HTML])
 ```
 - Método 'before'
 ```
-$( [element] ).before([string HTML])
+$( [elemento] ).before([string HTML])
 ```
 - Método 'insertAfter'
 ```
@@ -247,7 +247,7 @@ $( [element] ).insertAfter([string HTML])
 ```
 - Método 'insertBefore'
 ```
-$( [element] ).insertBefore([string HTML])
+$( [elemento] ).insertBefore([string HTML])
 ```
 
 ## Control del arbol DOM 
@@ -274,10 +274,10 @@ Metodos que no requieren de un elemento inicializador
 $.ajax([string URL])
 ```
 ```
-$.ajax([string URL], [object OPTIONS])
+$.ajax([string URL], [objecto OPTIONS])
 ```
 ```
-$.ajax([object OPTIONS])
+$.ajax([objecto OPTIONS])
 ```
 **Información Adicional :**
 > Para poder comprender mejor el metodo prototipado de ajax, a continuación podrá acceder a la documentación especial sobre este metodo. [Ver documentación $.ajax](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/ajax/Espan%CC%83ol.md)
@@ -286,7 +286,7 @@ $.ajax([object OPTIONS])
 
 Crear una cookie
 ```
-$.cookie([string KEY],[string VALUE],[object OPTIONS])
+$.cookie([string KEY],[string VALUE],[objecto OPTIONS])
 ```
 Devolver el valor de una cookie
 ```
@@ -298,15 +298,15 @@ $.cookie([string KEY],[boolean = false])
 ```
 - Método 'for'
 ```
-$.for([array],[function])
+$.for([arreglo],[función])
 ```
 - Método 'forIn'
 ```
-$.forIn([object],[function])
+$.forIn([objecto],[función])
 ```
 - Método 'forOf'
 ```
-$.forOf([object],[function])
+$.forOf([objecto],[función])
 ```
 - Método 'lorem'
 ```
@@ -322,15 +322,15 @@ $.random([number = 0 INIT],[number = 100 END])
 ```
 - Método 'serialize'
 ```
-$.serialize([object])
+$.serialize([objecto])
 ```
 - Método 'serializeArray'
 ```
-$.serializeArray([object])
+$.serializeArray([objecto])
 ```
 - Método 'storage'
 ```
-$.cookie([string KEY],[string VALUE],[object OPTIONS])
+$.cookie([string KEY],[string VALUE],[objecto OPTIONS])
 ```
 Devolver el valor de una cookie
 ```
@@ -342,5 +342,5 @@ $.cookie([string KEY],[boolean = false])
 ```
 - Método 'waitForSecond'
 ```
-$.waitForSecond([function],[number = 1 SECOND])
+$.waitForSecond([función],[number = 1 SECOND])
 ```
