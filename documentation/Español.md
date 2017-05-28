@@ -21,19 +21,21 @@
 La manera correcta para iniciar la libreria, hay dos manera:
 
 - Método Básico
+Ejecutar una función sin parametro justo cargado tanto el DOM como las imagenes y frames.
 ```
 $( [function] )
 ```
-Ejecutar una función sin parametro justo cargado tanto el DOM como las imagenes y iFrames.
 
 - Método Avanzado
+
+Ejecutar una función con un parametro, es este caso 'app', donde 'app' devuelve dos datos: 
+- ' interactive ' : Se lanza este dato una vez analizado y cargado el DOM
+- ' complete ' : despues lanza este dato cuando ya ha cargado las imagenes y los iFrames
 
 ```
 $( app => (app === 'interactive') ? [function A] : (app === 'complete') && [function B] )
 ```
-Ejecutar una función con un parametro, es este caso 'app', donde 'app' devuelve dos datos: 
-- ' interactive ' : Se lanza este dato una vez analizado y cargado el DOM
-- ' complete ' : despues lanza este dato cuando ya ha cargado las imagenes y los iFrames
+
 
 **Información adicional :**  
 > *El método '$([function])' es igual que hacer '$( app => (app === 'complete') && [function] )'.*
