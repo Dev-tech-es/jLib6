@@ -1,5 +1,21 @@
 # Documentación de jLib6
 
+
+## INDICE
+- [Incializar la libreria](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#inicializar-la-libreria)
+- [Selector de elementos]()
+- [Control de eventos](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-eventos)
+- [Control de ajax](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-ajax)
+- [Control de formulario](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-formulario)
+- [Control del DOM](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-del-dom)
+- [Control de los estilos CSS](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-los-estilo-css)
+- [Control de los datos del DOM](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-los-datos-del-dom)
+- [Control del DOM (Insite)](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-del-dom-insite)
+- [Control del DOM (Outsite)](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-del-dom-outsite)
+- [Control del arbol DOM](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-del-arbol-dom)
+- [Control de filtros](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-filtros)
+ -[Metodos prototipados](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#metodos-prototipados)
+
 ## Inicializar la libreria
 
 La manera correcta para iniciar la libreria, hay dos manera:
@@ -21,6 +37,18 @@ Ejecutar una función con un parametro, es este caso 'app', donde 'app' devuelve
 
 **Información adicional :**  
 > *El método '$([function])' es igual que hacer '$( app => (app === 'complete') && [function] )'.*
+
+## Selector de elementos
+
+Como en el CSS podemos seleccionar un elemento por su elemento HTML, ID o CLASE.
+
+```
+$( [element] )
+```
+
+**Información adicional :**  
+> Se recomienda la selección por el ID, para garantizar una sintaxis correcta
+
 
 ## Control de eventos
 
