@@ -312,4 +312,3 @@ $.cookie([string KEY],[boolean = false])
 ```
 $.waitForSecond([function],[number = 1 SECOND])
 ```
-
