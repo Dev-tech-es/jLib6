@@ -3,7 +3,7 @@
 
 ## INDICE
 - [Incializar la libreria](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#inicializar-la-libreria)
-- [Selector de elementos]()
+- [Selector de elementos](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#selector-de-elementos)
 - [Control de eventos](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-eventos)
 - [Control de ajax](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-ajax)
 - [Control de formulario](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-formulario)
