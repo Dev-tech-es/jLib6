@@ -40,7 +40,7 @@ $( app => (app ==='interactive') ? [function A] : (app ==='complete') && [functi
 - Method 'append'
 - Method 'appendTo'
 - Method 'prepend'
-- Method 'prepemdTo'
+- Method 'prependTo'
 - Method 'text'
 - Method 'after'
 - Method 'before'
