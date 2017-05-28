@@ -1,4 +1,4 @@
-[Readme](https://github.com/Dev-tech-es/jLib6/blob/master/README.md)
+Léeme en inglés. [Readme](https://github.com/Dev-tech-es/jLib6/blob/master/README.md)
 
 # Libreria javascript para manejar el DOM
 
