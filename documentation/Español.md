@@ -14,7 +14,7 @@
 - [Control del DOM (Outsite)](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-del-dom-outsite)
 - [Control del arbol DOM](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-del-arbol-dom)
 - [Control de filtros](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#control-de-filtros)
- -[Metodos prototipados](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#metodos-prototipados)
+- [Metodos prototipados](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md#metodos-prototipados)
 
 ## Inicializar la libreria
 
