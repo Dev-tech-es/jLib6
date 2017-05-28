@@ -83,7 +83,7 @@ The current version of the library is:
 - [English](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/English.md)
 - [Español](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/Espan%CC%83ol.md)
 
-## Autor
+## Author
 
 * **Sergio González Garrido** - *Initial work* - [Dev-tech](https://github.com/Dev-tech-es)
 
