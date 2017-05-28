@@ -89,4 +89,4 @@ La versión actual de la libreria es:
 
 ## Licencia
 
-Este proyecto está licenciado bajo la ** Licencia MIT ** - vea el archivo para más detalles **[LICENSE.md](https://github.com/Dev-tech-es/jLib6/blob/master/LICENSE)**
+Este proyecto está licenciado bajo la **Licencia MIT** - vea el archivo para más detalles **[LICENSE.md](https://github.com/Dev-tech-es/jLib6/blob/master/LICENSE)**
