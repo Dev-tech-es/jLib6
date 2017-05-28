@@ -130,14 +130,23 @@ Genera un arreglo , llave y valor para enviar datos por formulario.
 $( [elemento] ).serializeArray()
 ```
 - Método 'blur'
+
+El evento de desenfoque es un elemento cuando pierde el foco. Originalmente, este evento sólo se aplicaba a elementos de formulario, como `<input>`. En los navegadores recientes, el dominio del evento se ha extendido para incluir todos los tipos de elementos. Un elemento puede perder el foco a través de los comandos del teclado, como la tecla Tab, o haciendo clic en otro lugar de la página.
+
 ```
 $( [elemento] ).blur()
 ```
+
 - Método 'focus'
+
+El método focus hace justamente lo contrario a blur
 ```
 $( [element] ).focus()
 ```
 - Método 'submit'
+
+El método submit se lanza cuando el elemento es un formulario y como regla general se realizar para hacer consulta
+
 ```
 $( [elementoForm] ).submit([función])
 ```
@@ -145,10 +154,14 @@ $( [elementoForm] ).submit([función])
 ## Control del DOM
 
 - Método 'hover'
+
+El método hover es la alternativa al hover de css
 ```
 $( [elemento] ).hover([función A], [función B])
 ```
 - Método 'remove'
+
+Método que elemina un elemento del DOM
 ```
 $( [elemento] ).remove()
 ```
@@ -157,6 +170,8 @@ $( [elemento] ).remove()
 ## Control de los estilo CSS
 
 - Método 'css'
+
+Ingresa parametros de estilo en el elemento seleccionado
 ```
 $( [elemento] ).css([string key], [string value])
 ```
@@ -164,18 +179,27 @@ $( [elemento] ).css([string key], [string value])
 $( [elemento] ).css([object])
 ```
 - Método 'hasClass'
+
+Comprueba si existe una clase en el elemento
+
 ```
 $( [elemento] ).hasClass([string nameClass])
 ```
 - Método 'addClass'
+
+Añade una o varias clases en el elemento seleccionado
 ```
 $( [elemento] ).addClass([string nameClass])
 ```
 - Método 'removeClass'
+
+Elimina un o varias clases del elemento
 ```
 $( [elemento] ).removeClass([string nameClass])
 ```
 - Método 'toggleClass'
+
+Este metodo especia es una combinacion de los tres antetiores. Añades una clases sino existe o elimina esta si existiera.
 ```
 $( [elemento] ).toggleClass([string nameClass])
 ```
