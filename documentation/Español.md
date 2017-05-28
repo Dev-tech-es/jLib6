@@ -175,18 +175,48 @@ $( [element] ).prop([string nameProp], [boolean newProp])
 ## Control del DOM (Insite)
 
 - Método 'append'
+```
+$( [element] ).append([string HTML])
+```
 - Método 'appendTo'
+```
+$( [element] ).appendTo([string HTML])
+```
 - Método 'prepend'
-- Método 'prepemdTo'
+```
+$( [element] ).prepend([string HTML])
+```
+- Método 'prependTo'
+```
+$( [element] ).prependTo([string HTML])
+```
 - Método 'text'
+```
+$( [element] ).text([string text])
+```
 - Método 'html'
+```
+$( [element] ).html([string HTML])
+```
 
 ## Control del DOM (Outsite)
 
 - Método 'after'
+```
+$( [element] ).after([string HTML])
+```
 - Método 'before'
+```
+$( [element] ).before([string HTML])
+```
 - Método 'insertAfter'
+```
+$( [element] ).insertAfter([string HTML])
+```
 - Método 'insertBefore'
+```
+$( [element] ).insertBefore([string HTML])
+```
 
 ## Control del arbol DOM 
 
@@ -208,14 +238,76 @@ $( [element] ).prop([string nameProp], [boolean newProp])
 Metodos que no requieren de un elemento inicializador
 
 - Método 'ajax'
+```
+$.ajax([string URL])
+```
+```
+$.ajax([string URL], [object OPTIONS])
+```
+```
+$.ajax([object OPTIONS])
+```
+
 - Método 'cookie'
+
+Crear una cookie
+```
+$.cookie([string KEY],[string VALUE],[object OPTIONS])
+```
+Devolver el valor de una cookie
+```
+$.cookie([string KEY])
+```
+Eliminar una cookie
+```
+$.cookie([string KEY],[boolean = false])
+```
 - Método 'for'
+```
+$.for([array],[function])
+```
 - Método 'forIn'
+```
+$.forIn([object],[function])
+```
 - Método 'forOf'
+```
+$.forOf([object],[function])
+```
 - Método 'lorem'
+```
+$.lorem([typeElement DOM])
+```
 - Método 'plugin'
+```
+$.plugin([function])
+```
 - Método 'random'
+```
+$.random([number = 0 INIT],[number = 100 END])
+```
 - Método 'serialize'
+```
+$.serialize([object])
+```
 - Método 'serializeArray'
+```
+$.serializeArray([object])
+```
 - Método 'storage'
+```
+$.cookie([string KEY],[string VALUE],[object OPTIONS])
+```
+Devolver el valor de una cookie
+```
+$.cookie([string KEY])
+```
+Eliminar una cookie
+```
+$.cookie([string KEY],[boolean = false])
+```
 - Método 'waitForSecond'
+```
+$.waitForSecond([function],[number = 1 SECOND])
+```
+
