@@ -75,8 +75,8 @@ $( app => (app ==='interactive') ? [funci처n A] : (app ==='complete') && [funci�
 
 La versi처n actual de la libreria es:
 
-- Versi처n de desarrollo 1.1.0
-- Versi처n estable 1.1.0
+- Versi처n de desarrollo 1.1.0 ~~[Descarga no habilitada](https://github.com/Dev-tech-es/jLib6/)~~
+- Versi처n estable 1.1.0 ~~[Descarga no habilitada](https://github.com/Dev-tech-es/jLib6/)~~
 
 ## Documentaci처n
 
