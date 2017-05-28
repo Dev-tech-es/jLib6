@@ -247,8 +247,8 @@ $.ajax([string URL], [object OPTIONS])
 ```
 $.ajax([object OPTIONS])
 ```
-**Información Adicional : **
-> Para poder comprender mejor el metodo prototipado de ajax, a continuación podrá acceder a la documentación especial sobre este metodo. [Ver documentación $.ajax](https://github.com/Dev-tech-es/jLib6/edit/master/documentation/ajax/Español.md)
+**Información Adicional :**
+> Para poder comprender mejor el metodo prototipado de ajax, a continuación podrá acceder a la documentación especial sobre este metodo. [Ver documentación $.ajax](https://github.com/Dev-tech-es/jLib6/blob/master/documentation/ajax/Espan%CC%83ol.md)
 
 - Método 'cookie'
 
