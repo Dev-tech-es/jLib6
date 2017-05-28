@@ -1,3 +1,5 @@
+[Léeme](https://github.com/Dev-tech-es/jLib6/blob/master/readme/Espan%CC%83ol.md)
+
 # DOM management javascript library
 
 **Lib6** is an efficient and fast library for handling the DOM with the new EMACScript 6 standard.
