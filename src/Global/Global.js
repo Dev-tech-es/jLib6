@@ -17,5 +17,7 @@ Object.defineProperties( $.about ,
 	"VERSION_LIB_DATE"	: { value: "23/03/17" },
 	"AUTHOR"			: { value: "Sergio Gonzalez Garrido" },
 	"LOCATION"			: { value: "Spain (Barcelona)" },
-	"CONTACT"			: { value: "info@dev-tech.es" }
+	"CONTACT"			: { value: "info@dev-tech.es" },
+	"TYPE_LICENCE"      : { value: "MIT"}, 
+	"LICENCE"			: { value: "https://github.com/Dev-tech-es/jLib6/blob/master/LICENSE"}
 });
