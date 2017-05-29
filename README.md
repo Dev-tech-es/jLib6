@@ -75,8 +75,8 @@ $( app => (app ==='interactive') ? [function A] : (app ==='complete') && [functi
 
 The current version of the library is:
 
-- Developer version 1.1.0 ~~[Download not enabled](https://github.com/Dev-tech-es/jLib6/)~~
-- Stable version 1.1.0 ~~[Download not enabled](https://github.com/Dev-tech-es/jLib6/)~~
+- Developer version 1.1.0 [Download](http://lib6.dev-tech.es/js/version/dev/Lib6.js)
+- Stable version 1.1.0~[Download](http://lib6.dev-tech.es/js/version/stable/Lib6.min.js)
 
 ## Documentation
 
