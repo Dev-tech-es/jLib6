@@ -85,8 +85,8 @@ The current version of the library is:
 
 ## Sitios oficiales
 
-Oficial Website : [Ver sitio](http://lib6.dev-tech.es/)
-Bugs: [Ir al formulario](http://lib6.dev-tech.es/bugs/)
+- Oficial Website : [Ver sitio](http://lib6.dev-tech.es/)
+- Bugs: [Ir al formulario](http://lib6.dev-tech.es/bugs/)
 
 ## Author
 
