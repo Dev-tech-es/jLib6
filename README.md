@@ -4,6 +4,8 @@ Readme in spanish. [Léeme](https://github.com/Dev-tech-es/jLib6/blob/master/rea
 
 **Lib6** is an efficient and fast library for handling the DOM with the new EMACScript 6 standard.
 
+[![License](https://poser.pugx.org/mobiledetect/mobiledetectlib/license.svg)](https://packagist.org/packages/mobiledetect/mobiledetectlib)
+
 ## Using the library
 
 The correct way to initialize the library is as follows:
